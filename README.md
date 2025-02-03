@@ -13,7 +13,7 @@
    !apt install checkinstall git -y
 
    
-3. **Install Aircrack-ng & Wordlist
+3. **Install Aircrack-ng & Wordlist**
    ```bash
    !git clone --recursive https://github.com/aircrack-ng/aircrack-ng
    !cd aircrack-ng && ./autogen.sh
@@ -22,7 +22,7 @@
    !echo wroclaw222 >> aircrack-ng/rockyou.txt
 
    
-4. **Install Hashcat & Utilities
+4. **Install Hashcat & Utilities**
    ```bash
    !git clone https://github.com/hashcat/hashcat.git && cd hashcat && make && make install
    !git clone https://github.com/hashcat/hashcat-utils && cd hashcat-utils && git submodule update --init && cd src && make
